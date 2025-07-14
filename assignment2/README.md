@@ -1,3 +1,6 @@
+## 作业1：ERC20 代币
+### 合约地址
+https://sepolia.etherscan.io/address/0xcb49b136bb850e6e26aae5db4ec96bbdd961ed30
 ## 作业3：编写一个讨饭合约
 ### 合约地址
 https://sepolia.etherscan.io/address/0xda5bd977398a72b83ea51f444d41efc1411b0d61
