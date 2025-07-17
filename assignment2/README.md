@@ -1,6 +1,12 @@
 ## 作业1：ERC20 代币
 ### 合约地址
 https://sepolia.etherscan.io/address/0xcb49b136bb850e6e26aae5db4ec96bbdd961ed30
+## 作业2：在测试网上发行一个图文并茂的 NFT
+### 合约地址
+https://sepolia.etherscan.io/address/0x8801e95B3D296782203C51449B7a2B1077584488
+### 测试
+#### 钱包成功查到NFT
+![](.pic/NFT.png)
 ## 作业3：编写一个讨饭合约
 ### 合约地址
 https://sepolia.etherscan.io/address/0xda5bd977398a72b83ea51f444d41efc1411b0d61
