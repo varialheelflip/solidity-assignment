@@ -2,7 +2,7 @@ const { ethers, deployments, getNamedAccounts } = require("hardhat")
 const { expect } = require("chai")
 
 
-describe("Test auction", async function () {
+describe("Test auction v1", async function () {
     it("Should be ok", async function () {
         await main();
     });
@@ -38,6 +38,7 @@ async function main() {
     await testERC721.connect(seller).approve(nftAuctionProxy.address, tokenId);
 
     const autionId = "first aution";
+    console.log(nftAuctionFactoryV2.interface.format("json"));
     await nftAuctionFactory.connect(seller).createAuction(
         autionId,
         testERC721Address,

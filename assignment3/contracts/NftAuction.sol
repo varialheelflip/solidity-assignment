@@ -26,9 +26,6 @@ contract NftAuction is IERC721Receiver {
     uint256 public highestBid;
     // 管理员地址
     address public admin;
-    // 参与竞价的资产类型 0x 地址表示eth，其他地址表示erc20
-    // 0x0000000000000000000000000000000000000000 表示eth
-    // address tokenAddress;
 
     constructor(
         address _seller,
