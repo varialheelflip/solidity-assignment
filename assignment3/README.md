@@ -26,7 +26,7 @@
 1. 部署脚本: deploy/02_depoly_v2.js
 1. 测试脚本: test/02_test_v2.js
 
-### 迭代三: 支持跨链
+### 迭代三: 支持跨链 todo
 #### 该迭代实现如下功能
 1. 允许用户在不同链上参与拍卖
 
@@ -35,6 +35,7 @@
 // 安装依赖
 npm install
 // 执行测试用例
+// 由于测试用例拍卖时间比较短, 在创建拍卖时, 区块时间有一定几率会大于结束时间, 导致报错"Invalid startTime and duration", 多执行几次即可
 npx hardhat test
 // 部署
 npx hardhat deploy
